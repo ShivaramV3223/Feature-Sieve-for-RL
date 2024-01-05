@@ -52,10 +52,10 @@ Here is the sample distribution from the second method of dataset generation, fo
 1) CNN: A Basic resnet34 architecture for regression task
 2) Feature Sieve Models:
    - All the feature sieve models have the same architecture. The main network consists of resent34 and the aux net consists of the first 2 Convolutional blocks of the resnet 34 architecture followed by average pooling and a Fully connected layer.
-   - There are Three Feature Sieve Models, each differ from the forgetting loss used.
-         1) *Feature Sieve Margin model*: This model uses a Margin forgetting loss as loss = min(-margin, -MSELOSS(aux_output, ground truth))
-         2) *Feature Sieve Cross Entropy model*: This model has its aux network as a classification task and bins the outputs into a few classes of the range. The model uses Cross Entropy loss as the forgetting loss as forget loss = cross entropy(aux_outputs, ones_like(aux_outputs) / num_bins).
-         3) *Feature Sieve Ordinal Model*: This model uses ordinal regression for training the aux layer. Every value in the range is converted into an ordinal label, the aux network is trained using a multi-label loss function to train the aux network. The forget loss is given as follows, loss = sum(aux_output_logits).
+   - There are three Feature Sieve Models, each differ from the forgetting loss used.\
+         1) *Feature Sieve Margin model*: This model uses a Margin forgetting loss as loss = min(-margin, -MSELOSS(aux_output, ground truth))\
+         2) *Feature Sieve Cross Entropy model*: This model has its aux network as a classification task and bins the outputs into a few classes of the range. The model uses Cross Entropy loss as the forgetting loss as forget loss = cross entropy(aux_outputs, ones_like(aux_outputs) / num_bins).\
+         3) *Feature Sieve Ordinal Model*: This model uses ordinal regression for training the aux layer. Every value in the range is converted into an ordinal label, the aux network is trained using a multi-label loss function to train the aux network. The forget loss is given as follows, loss = sum(aux_output_logits).\
 
 The results of the model on datasets from dataset gen 1:\
 ![Results on the Datasets Gen 1](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen1.png)
