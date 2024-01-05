@@ -2,14 +2,14 @@
 ## Dataset: UTKFace
 
 ### Dataset Infos:
-Dataset consists of total of 23705 datapoints.\
+The dataset consists of a total of 23705 data points.\
 Divided into:
-1) Training Dataset of 14223 datapoints.
-2) Validation Dataset of 4741 datapoints.
+1) Training Dataset of 14223 data points.
+2) Validation Dataset of 4741 data points.
 3) Test Datset of 4741 datapoints
 
 To experiment on simplicity bias, we create biased datasets by biasing the dataset using the attribute gender.\
-We have 7470 male datapoints and 6753 female datapoints. The biased datasets contain 5000 datapoints.
+We have 7470 male data points and 6753 female data points. The biased datasets contain 5000 data points.
 
 Here is the image of the training dataset distribution, where blue represents the gender male and red represents the gender female.\
 ![Training Distribution as a Violin Plot](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/train_distribution.png)
@@ -48,3 +48,19 @@ Here are the values used to produce the 10 datasets
 Here is the sample distribution from the second method of dataset generation, for all the datasets look into the Datasets/Gen2 folder under UTKFace.\
 ![Dataset Distribution 0 from second method](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Datasets/Gen2/dataset_dist0.png)
 
+### Models
+1) CNN: A Basic resnet34 architecture for regression task
+2) Feature Sieve Models:
+   - All the feature sieve models have the same architecture. The main network consists of resent34 and the aux net consists of the first 2 Convolutional blocks of the resnet 34 architecture followed by average pooling and a Fully connected layer.
+   - There are Three Feature Sieve Models, each differ from the forgetting loss used.
+         1) *Feature Sieve Margin model*: This model uses a Margin forgetting loss as loss = min(-margin, -MSELOSS(aux_output, ground truth))
+         2) *Feature Sieve Cross Entropy model*: This model has its aux network as a classification task and bins the outputs into a few classes of the range. The model uses Cross Entropy loss as the forgetting loss as forget loss = cross entropy(aux_outputs, ones_like(aux_outputs) / num_bins).
+         3) *Feature Sieve Ordinal Model*: This model uses ordinal regression for training the aux layer. Every value in the range is converted into an ordinal label, the aux network is trained using a multi-label loss function to train the aux network. The forget loss is given as follows, loss = sum(aux_output_logits).
+
+The results of the model on datasets from dataset gen 1:\
+![Results on the Datasets Gen 1](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen1.png)
+The results of the model on datasets from dataset gen 2:\
+![Results on the Datasets Gen 2](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen2.png)
+
+Further here is the comparison of a Bayesian Regression model which uses just gender as input and predicts the age and the CNN Model on the Dataset Gen 2.\
+![Bayesian Loss vs CNN Loss Gen2](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Bayesian.png)
