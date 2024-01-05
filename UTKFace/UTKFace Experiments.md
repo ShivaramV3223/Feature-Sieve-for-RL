@@ -26,7 +26,7 @@ Here are the values used to create the 10 datasets\
 *Old*: "male", "female", "male", "female", "male", "female", 'male', 'female', 'male', 'female'\
 *Perecentage*: 0.5, 0.5, 0.5, 0.7, 0.8, 0.2, 0.3, 0.5, 0.8, 0.4\
 
-Here is a sample image from the datasets created, for more images look into the Datasets/Gen1 folder under UTKFace.
+Here is a sample image from the datasets created, for more images look into the Datasets/Gen1 folder under UTKFace.\
 ![Dataset distribution 0 from generator 1](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Datasets/Gen1/dataset_dist0.png)
 
 #### Data Generation 2
@@ -45,6 +45,6 @@ Here are the values used to produce the 10 datasets
 4) male_vars = 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
 5) female_vars = 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
 
-Here is the sample distribution from the second method of dataset generation, for all the datasets look into the Datasets/Gen2 folder under UTKFace.
+Here is the sample distribution from the second method of dataset generation, for all the datasets look into the Datasets/Gen2 folder under UTKFace.\
 ![Dataset Distribution 0 from second method](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Datasets/Gen2/dataset_dist0.png)
 
