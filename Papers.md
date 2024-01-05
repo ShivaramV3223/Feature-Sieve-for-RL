@@ -6,7 +6,7 @@ Top Reference paper: https://arxiv.org/abs/2301.13293
 |---------|--------|----------|--------|
 |Overcoming Simplicity Bias in Deep Networks using a Feature Sieve| https://arxiv.org/abs/2301.13293 | NA| &#9745;|
 
-## Behavioraal Cloning Papaers
+## Behavioral Cloning Papaers
 |**Paper**|**Link**|**Github**|**Read**|
 |---------|--------|----------|--------|
 |Behavioral Cloning from Observation| | |&#9744;|
@@ -14,4 +14,4 @@ Top Reference paper: https://arxiv.org/abs/2301.13293
 ## Bias in Reinforcement Learning
 |**Paper**|**Link**|**Github**|**Read**|
 |---------|--------|----------|--------|
-|Primacy Bias in Deep Reinforcement Learning| https://arxiv.org/abs/2205.07802| | &#9745;| 
+|Primacy Bias in Deep Reinforcement Learning| https://arxiv.org/abs/2205.07802| https://github.com/evgenii-nikishin/rl_with_resets| &#9745;| 
