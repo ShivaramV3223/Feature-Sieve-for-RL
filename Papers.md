@@ -9,7 +9,7 @@ Top Reference paper: https://arxiv.org/abs/2301.13293
 ## Behavioral Cloning Papaers
 |**Paper**|**Link**|**Github**|**Read**|
 |---------|--------|----------|--------|
-|Behavioral Cloning from Observation| | |&#9744;|
+|Behavioral Cloning from Observation|https://www.ijcai.org/proceedings/2018/0687.pdf |https://github.com/montaserFath/BCO|&#9744;|
 
 ## Bias in Reinforcement Learning
 |**Paper**|**Link**|**Github**|**Read**|
