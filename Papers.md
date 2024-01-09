@@ -10,6 +10,8 @@ Top Reference paper: https://arxiv.org/abs/2301.13293
 |**Paper**|**Link**|**Github**|**Read**|
 |---------|--------|----------|--------|
 |Behavioral Cloning from Observation|https://www.ijcai.org/proceedings/2018/0687.pdf |https://github.com/montaserFath/BCO|&#9744;|
+|Playing Minecraft with Behavioral Cloning| https://arxiv.org/abs/2005.03374|https://github.com/Miffyli/minecraft-bc | &#9744;|
+
 
 ## Bias in Reinforcement Learning
 |**Paper**|**Link**|**Github**|**Read**|
