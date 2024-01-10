@@ -18,4 +18,4 @@ Each data point is made by stacking 4 frames each is converted to Grayscale and 
 
  Here are the results obtained for:
  1) Space invaders:\
-    ![result_space_invaders]()
+    ![result_space_invaders](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/Behavioural%20Cloning/Atari_BC/Outputs/cnn_vs_fs.png)
