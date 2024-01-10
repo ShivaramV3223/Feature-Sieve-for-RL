@@ -1,4 +1,4 @@
-# Behavioral Cloning Atari SpaceInvaders
+# Behavioral Cloning Atari 
 ## Dataset: D4RL Atari
 The dataset consists of 10,00,000 data points.\
 The dataset is split as follows:
