@@ -12,7 +12,7 @@ To experiment on simplicity bias, we create biased datasets by biasing the datas
 We have 7470 male data points and 6753 female data points. The biased datasets contain 5000 data points.
 
 Here is the image of the training dataset distribution, where blue represents the gender male and red represents the gender female.\
-![Training Distribution as a Violin Plot](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/train_distribution.png)
+![Training Distribution as a Violin Plot](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Datasets/train_distribution.png)
 
 #### Data Generation 1
 Here we are biasing the dataset where we have the target as *Age* and input as *Image* and biasing attribute as *Gender*.\
