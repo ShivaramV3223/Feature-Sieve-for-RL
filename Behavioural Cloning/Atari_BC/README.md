@@ -14,7 +14,7 @@ Each data point is made by stacking 4 frames each is converted to Grayscale and 
 
  Two different architectures of the Feature Sieve model differ where the aux network is connected to the main network. The first model is connected to the 1st convolutional layer and the second model has its aux network connected to the 2nd convolutional layer of the main network.
 
- Feature Sieve Model with its aux network connected to the 1st convolutional layer performs well./
+ Feature Sieve Model with its aux network connected to the 1st convolutional layer performs well.
 
  Here are the results obtained for:
  1) Space invaders:\
