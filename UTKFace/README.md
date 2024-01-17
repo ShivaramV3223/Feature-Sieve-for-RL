@@ -59,8 +59,10 @@ Here is the sample distribution from the second method of dataset generation, fo
 
 To get an idea of the effect of simplicity bias on the model, we created a dataset with the same size as each training dataset but the samples are sampled randomly from the training dataset. The distribution of the new dataset is similar to the original training dataset. The loss of the CNN model on the unbiased dataset lies near 85 which is very close to the test loss of the same model trained on the complete training dataset which is near 70.
 
-Here is the distribution:
+Here is the distribution:\
 ![No bias dataset](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Datasets/Train_Dataset_no_bias.png)
+
+The above comparison is also added to the second set of generated datasets.
 
 The results of the model on datasets from dataset gen 1:\
 ![Results on the Datasets Gen 1](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen1.png)
