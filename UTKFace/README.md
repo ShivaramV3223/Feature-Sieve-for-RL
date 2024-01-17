@@ -57,10 +57,15 @@ Here is the sample distribution from the second method of dataset generation, fo
          2) *Feature Sieve Cross Entropy model*: This model has its aux network as a classification task and bins the outputs into a few classes of the range. The model uses Cross Entropy loss as the forgetting loss as forget loss = cross entropy(aux_outputs, ones_like(aux_outputs) / num_bins).\
          3) *Feature Sieve Ordinal Model*: This model uses ordinal regression for training the aux layer. Every value in the range is converted into an ordinal label, the aux network is trained using a multi-label loss function to train the aux network. The forget loss is given as follows, loss = sum(aux_output_logits).\
 
+To get an idea of the effect of simplicity bias on the model, we created a dataset with the same size as each training dataset but the samples are sampled randomly from the training dataset. The distribution of the new dataset is similar to the original training dataset. The loss of the CNN model on the unbiased dataset lies near 85 which is very close to the test loss of the same model trained on the complete training dataset which is near 70.
+
+Here is the distribution:
+![No bias dataset]()
+
 The results of the model on datasets from dataset gen 1:\
 ![Results on the Datasets Gen 1](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen1.png)
 The results of the model on datasets from dataset gen 2:\
-![Results on the Datasets Gen 2](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Gen2.png)
+![Results on the Datasets Gen 2](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses.png)
 
 Further here is the comparison of a Bayesian Regression model which uses just gender as input and predicts the age and the CNN Model on the Dataset Gen 2.\
 ![Bayesian Loss vs CNN Loss Gen2](https://github.com/ShivaramV3223/Feature-Sieve-for-RL/blob/main/UTKFace/Outputs/Test_Losses_Bayesian.png)
