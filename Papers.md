@@ -17,3 +17,8 @@ Top Reference paper: https://arxiv.org/abs/2301.13293
 |**Paper**|**Link**|**Github**|**Read**|
 |---------|--------|----------|--------|
 |Primacy Bias in Deep Reinforcement Learning| https://arxiv.org/abs/2205.07802| https://github.com/evgenii-nikishin/rl_with_resets| &#9745;| 
+
+## Zero-Shot Transfer In Reinforcement Learning
+|**Paper**|**Link**|**Github**|**Read**|
+|---------|--------|----------|--------|
+|DARLA - Improving Zero-Shot Transfer in Reinforcement Learning| https://proceedings.mlr.press/v70/higgins17a/higgins17a.pdf|https://github.com/BCHoagland/DARLA | &#9744;|
