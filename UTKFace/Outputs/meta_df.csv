@@ -1,0 +1,13 @@
+Dataset,Male Young Counts,Male Old Counts,Female Young Counts,Female Old Counts,Total Counts
+Complete Dataset,6349,1099,6078,697,14223
+No Bias Dataset,2191,419,2138,252,5000
+Training Dataset 0,4000,0,306,693,4999
+Training Dataset 1,2500,0,1868,632,5000
+Training Dataset 2,3000,0,1403,597,5000
+Training Dataset 3,2500,0,1866,634,5000
+Training Dataset 4,1752,248,3000,0,5000
+Training Dataset 5,1162,838,3000,0,5000
+Training Dataset 6,4000,0,869,130,4999
+Training Dataset 7,4000,0,306,693,4999
+Training Dataset 8,1000,0,3591,409,5000
+Training Dataset 9,3000,0,1714,286,5000
