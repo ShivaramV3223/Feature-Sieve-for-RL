@@ -1,0 +1,12 @@
+,foo
+Linear Regression,944.2682406491247
+Decision Tree Regressor,77.86666666666666
+Random Forest Regressor,29.931615999999998
+XGBoost Regressor,32.98131629863719
+Gradient Boosting Regressor,94.74369148296772
+CatBoost Regressor,30.08533883558509
+LightGBM,30.26509417273548
+Neural Network,90.22956085205078
+SiFer Margin,100.6615219116211
+SiFer Cross Entrpy,79.58548736572266
+Sifer Ordinal,83.3344955444336

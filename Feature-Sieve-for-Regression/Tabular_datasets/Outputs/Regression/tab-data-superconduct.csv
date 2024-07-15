@@ -1,0 +1,12 @@
+,criticaltemp
+Linear Regression,467.7615548235178
+Decision Tree Regressor,439.6607394909148
+Random Forest Regressor,246.4740656886378
+XGBoost Regressor,274.9915888379755
+Gradient Boosting Regressor,219.61600491798015
+CatBoost Regressor,235.90755156503593
+LightGBM,246.9578942989893
+Neural Network,259.7711181640625
+SiFer Margin,227.05747985839844
+SiFer Cross Entrpy,223.0485382080078
+Sifer Ordinal,244.134765625

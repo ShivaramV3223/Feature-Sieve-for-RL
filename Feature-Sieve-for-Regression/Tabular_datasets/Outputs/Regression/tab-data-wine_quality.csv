@@ -1,0 +1,12 @@
+,quality
+Linear Regression,0.7045380897631012
+Decision Tree Regressor,1.7715384615384615
+Random Forest Regressor,0.6073125192307692
+XGBoost Regressor,0.6449817377438328
+Gradient Boosting Regressor,0.5167423884238428
+CatBoost Regressor,0.6784005383394438
+LightGBM,0.5258382794727617
+Neural Network,0.5153366327285767
+SiFer Margin,0.6084859371185303
+SiFer Cross Entrpy,0.81551194190979
+Sifer Ordinal,0.7741106152534485

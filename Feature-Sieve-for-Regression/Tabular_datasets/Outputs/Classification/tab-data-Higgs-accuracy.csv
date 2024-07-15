@@ -1,0 +1,10 @@
+,class-Accuracy
+Logistic Regression,0.5596348987812962
+Decision Tree Classifier,0.5405639692009586
+Random Forest Classifier,0.6351537402478201
+XGBoost Classifier,0.6077711488450359
+Gradient Boosting Classifier,0.590688899087247
+CatBoost Classifier,0.5962470042323186
+LightGBM Classifier,0.5942073326194482
+Neural Network,0.5886492274743766
+SiFer Classification,0.5530569578297894

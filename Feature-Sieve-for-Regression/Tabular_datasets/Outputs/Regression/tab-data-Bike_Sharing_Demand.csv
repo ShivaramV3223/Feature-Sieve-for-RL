@@ -1,0 +1,12 @@
+,count
+Linear Regression,42077.609259435456
+Decision Tree Regressor,23992.428098935863
+Random Forest Regressor,22093.865344979524
+XGBoost Regressor,27444.09217083165
+Gradient Boosting Regressor,23856.495810510623
+CatBoost Regressor,25730.609863246373
+LightGBM,24046.191537851886
+Neural Network,39564.38671875
+SiFer Margin,41445.73046875
+SiFer Cross Entrpy,31148.01953125
+Sifer Ordinal,31872.087890625

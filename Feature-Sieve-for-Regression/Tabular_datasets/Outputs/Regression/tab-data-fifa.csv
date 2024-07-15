@@ -1,0 +1,12 @@
+,wage_eur
+Linear Regression,32.916366856157104
+Decision Tree Regressor,18.924357463770633
+Random Forest Regressor,17.975340462665688
+XGBoost Regressor,9.966764357507286
+Gradient Boosting Regressor,5.879083720242505
+CatBoost Regressor,15.550491128595018
+LightGBM,5.979318667395876
+Neural Network,4.8073344230651855
+SiFer Margin,4.8547892570495605
+SiFer Cross Entrpy,4.389307975769043
+Sifer Ordinal,7.669018745422363

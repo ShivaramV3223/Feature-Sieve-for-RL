@@ -1,0 +1,10 @@
+,SeriousDlqin2yrs-Accuracy
+Logistic Regression,0.6414473684210527
+Decision Tree Classifier,0.6288875598086124
+Random Forest Classifier,0.7338516746411483
+XGBoost Classifier,0.7332535885167464
+Gradient Boosting Classifier,0.7263755980861244
+CatBoost Classifier,0.7248803827751196
+LightGBM Classifier,0.7485047846889952
+Neural Network,0.7165071770334929
+SiFer Classification,0.5269138755980861
